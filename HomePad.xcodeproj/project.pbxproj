@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F60AD6E2CB1224600ABCAB7 /* MobileVLCKit.xcframework in Resources */ = {isa = PBXBuildFile; fileRef = 4F9620262CAFE91F004E9687 /* MobileVLCKit.xcframework */; };
+		4F63F07A2CAFBA4E004574E9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4F63F0792CAFBA4E004574E9 /* Alamofire */; };
+		4F9620272CAFE91F004E9687 /* MobileVLCKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9620262CAFE91F004E9687 /* MobileVLCKit.xcframework */; settings = {ATTRIBUTES = (Required, ); }; };
+		4F9620292CAFE92A004E9687 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9620282CAFE92A004E9687 /* AudioToolbox.framework */; };
+		4F96202B2CAFE92F004E9687 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F96202A2CAFE92F004E9687 /* AVFoundation.framework */; };
+		4F96202D2CAFE934004E9687 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F96202C2CAFE934004E9687 /* CFNetwork.framework */; };
+		4F96202F2CAFE939004E9687 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F96202E2CAFE939004E9687 /* CoreFoundation.framework */; };
+		4F9620312CAFE93C004E9687 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9620302CAFE93C004E9687 /* CoreGraphics.framework */; };
+		4F9620332CAFE941004E9687 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9620322CAFE941004E9687 /* CoreMedia.framework */; };
+		4F9620352CAFE945004E9687 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9620342CAFE945004E9687 /* CoreText.framework */; };
+		4F9620372CAFE948004E9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9620362CAFE948004E9687 /* CoreVideo.framework */; };
+		4F9620392CAFE94F004E9687 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9620382CAFE94F004E9687 /* Foundation.framework */; };
+		4F96203D2CAFE964004E9687 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F96203C2CAFE964004E9687 /* libbz2.tbd */; };
+		4F96203F2CAFE969004E9687 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F96203E2CAFE969004E9687 /* libc++.tbd */; };
+		4F9620412CAFE96D004E9687 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9620402CAFE96D004E9687 /* libiconv.tbd */; };
+		4F9620432CAFE971004E9687 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9620422CAFE971004E9687 /* libxml2.tbd */; };
+		4F9620452CAFE976004E9687 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9620442CAFE976004E9687 /* OpenGLES.framework */; };
+		4F9620472CAFE97B004E9687 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9620462CAFE97B004E9687 /* QuartzCore.framework */; };
+		4F9620492CAFE97F004E9687 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9620482CAFE97F004E9687 /* Security.framework */; };
+		4F96204B2CAFE985004E9687 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F96204A2CAFE985004E9687 /* VideoToolbox.framework */; };
+		4F96204D2CAFE989004E9687 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F96204C2CAFE989004E9687 /* UIKit.framework */; };
+		4F9620502CAFE9DC004E9687 /* VLCUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4F96204F2CAFE9DC004E9687 /* VLCUI */; };
+		4FB5CFB82CB1079200861907 /* MQTTNIO in Frameworks */ = {isa = PBXBuildFile; productRef = 4FB5CFB72CB1079200861907 /* MQTTNIO */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F9620632CB0630B004E9687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F63F0552CAFB76B004574E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F63F05C2CAFB76B004574E9;
+			remoteInfo = HomePad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F63F05D2CAFB76B004574E9 /* HomePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9620262CAFE91F004E9687 /* MobileVLCKit.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:ABCDEF:Zero Cho"; lastKnownFileType = wrapper.xcframework; name = MobileVLCKit.xcframework; path = Carthage/Build/MobileVLCKit.xcframework; sourceTree = "<group>"; };
+		4F9620282CAFE92A004E9687 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4F96202A2CAFE92F004E9687 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4F96202C2CAFE934004E9687 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4F96202E2CAFE939004E9687 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		4F9620302CAFE93C004E9687 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F9620322CAFE941004E9687 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4F9620342CAFE945004E9687 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		4F9620362CAFE948004E9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		4F9620382CAFE94F004E9687 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F96203A2CAFE95A004E9687 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4F96203C2CAFE964004E9687 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		4F96203E2CAFE969004E9687 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		4F9620402CAFE96D004E9687 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		4F9620422CAFE971004E9687 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		4F9620442CAFE976004E9687 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4F9620462CAFE97B004E9687 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4F9620482CAFE97F004E9687 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4F96204A2CAFE985004E9687 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		4F96204C2CAFE989004E9687 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F9620592CB05CE4004E9687 /* Testing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Testing.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/Testing.framework; sourceTree = DEVELOPER_DIR; };
+		4F96205F2CB0630B004E9687 /* HomePadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomePadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4F60AD6A2CB1105900ABCAB7 /* Exceptions for "HomePad" folder in "HomePad" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4F63F05C2CAFB76B004574E9 /* HomePad */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4F63F05F2CAFB76B004574E9 /* HomePad */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4F60AD6A2CB1105900ABCAB7 /* Exceptions for "HomePad" folder in "HomePad" target */,
+			);
+			path = HomePad;
+			sourceTree = "<group>";
+		};
+		4F9620602CB0630B004E9687 /* HomePadTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HomePadTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F63F05A2CAFB76B004574E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9620502CAFE9DC004E9687 /* VLCUI in Frameworks */,
+				4F96204D2CAFE989004E9687 /* UIKit.framework in Frameworks */,
+				4F96204B2CAFE985004E9687 /* VideoToolbox.framework in Frameworks */,
+				4F9620492CAFE97F004E9687 /* Security.framework in Frameworks */,
+				4F9620472CAFE97B004E9687 /* QuartzCore.framework in Frameworks */,
+				4F9620452CAFE976004E9687 /* OpenGLES.framework in Frameworks */,
+				4F9620432CAFE971004E9687 /* libxml2.tbd in Frameworks */,
+				4FB5CFB82CB1079200861907 /* MQTTNIO in Frameworks */,
+				4F9620412CAFE96D004E9687 /* libiconv.tbd in Frameworks */,
+				4F96203F2CAFE969004E9687 /* libc++.tbd in Frameworks */,
+				4F96203D2CAFE964004E9687 /* libbz2.tbd in Frameworks */,
+				4F9620392CAFE94F004E9687 /* Foundation.framework in Frameworks */,
+				4F9620372CAFE948004E9687 /* CoreVideo.framework in Frameworks */,
+				4F9620352CAFE945004E9687 /* CoreText.framework in Frameworks */,
+				4F9620332CAFE941004E9687 /* CoreMedia.framework in Frameworks */,
+				4F9620312CAFE93C004E9687 /* CoreGraphics.framework in Frameworks */,
+				4F96202F2CAFE939004E9687 /* CoreFoundation.framework in Frameworks */,
+				4F96202D2CAFE934004E9687 /* CFNetwork.framework in Frameworks */,
+				4F96202B2CAFE92F004E9687 /* AVFoundation.framework in Frameworks */,
+				4F9620292CAFE92A004E9687 /* AudioToolbox.framework in Frameworks */,
+				4F63F07A2CAFBA4E004574E9 /* Alamofire in Frameworks */,
+				4F9620272CAFE91F004E9687 /* MobileVLCKit.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F96205C2CB0630B004E9687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F63F0542CAFB76B004574E9 = {
+			isa = PBXGroup;
+			children = (
+				4F63F05F2CAFB76B004574E9 /* HomePad */,
+				4F9620602CB0630B004E9687 /* HomePadTests */,
+				4F9620252CAFE91F004E9687 /* Frameworks */,
+				4F63F05E2CAFB76B004574E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F63F05E2CAFB76B004574E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F63F05D2CAFB76B004574E9 /* HomePad.app */,
+				4F96205F2CB0630B004E9687 /* HomePadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F9620252CAFE91F004E9687 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F9620592CB05CE4004E9687 /* Testing.framework */,
+				4F96204C2CAFE989004E9687 /* UIKit.framework */,
+				4F96204A2CAFE985004E9687 /* VideoToolbox.framework */,
+				4F9620482CAFE97F004E9687 /* Security.framework */,
+				4F9620462CAFE97B004E9687 /* QuartzCore.framework */,
+				4F9620442CAFE976004E9687 /* OpenGLES.framework */,
+				4F9620422CAFE971004E9687 /* libxml2.tbd */,
+				4F9620402CAFE96D004E9687 /* libiconv.tbd */,
+				4F96203E2CAFE969004E9687 /* libc++.tbd */,
+				4F96203C2CAFE964004E9687 /* libbz2.tbd */,
+				4F96203A2CAFE95A004E9687 /* libz.tbd */,
+				4F9620382CAFE94F004E9687 /* Foundation.framework */,
+				4F9620362CAFE948004E9687 /* CoreVideo.framework */,
+				4F9620342CAFE945004E9687 /* CoreText.framework */,
+				4F9620322CAFE941004E9687 /* CoreMedia.framework */,
+				4F9620302CAFE93C004E9687 /* CoreGraphics.framework */,
+				4F96202E2CAFE939004E9687 /* CoreFoundation.framework */,
+				4F96202C2CAFE934004E9687 /* CFNetwork.framework */,
+				4F96202A2CAFE92F004E9687 /* AVFoundation.framework */,
+				4F9620282CAFE92A004E9687 /* AudioToolbox.framework */,
+				4F9620262CAFE91F004E9687 /* MobileVLCKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F63F05C2CAFB76B004574E9 /* HomePad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F63F06B2CAFB76C004574E9 /* Build configuration list for PBXNativeTarget "HomePad" */;
+			buildPhases = (
+				4F63F0592CAFB76B004574E9 /* Sources */,
+				4F63F05A2CAFB76B004574E9 /* Frameworks */,
+				4F63F05B2CAFB76B004574E9 /* Resources */,
+				4F60AD6D2CB1200E00ABCAB7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4F63F05F2CAFB76B004574E9 /* HomePad */,
+			);
+			name = HomePad;
+			packageProductDependencies = (
+				4F63F0792CAFBA4E004574E9 /* Alamofire */,
+				4F96204F2CAFE9DC004E9687 /* VLCUI */,
+				4FB5CFB72CB1079200861907 /* MQTTNIO */,
+			);
+			productName = HomePad;
+			productReference = 4F63F05D2CAFB76B004574E9 /* HomePad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F96205E2CB0630B004E9687 /* HomePadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9620652CB0630B004E9687 /* Build configuration list for PBXNativeTarget "HomePadTests" */;
+			buildPhases = (
+				4F96205B2CB0630B004E9687 /* Sources */,
+				4F96205C2CB0630B004E9687 /* Frameworks */,
+				4F96205D2CB0630B004E9687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F9620642CB0630B004E9687 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4F9620602CB0630B004E9687 /* HomePadTests */,
+			);
+			name = HomePadTests;
+			packageProductDependencies = (
+			);
+			productName = HomePadTests;
+			productReference = 4F96205F2CB0630B004E9687 /* HomePadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F63F0552CAFB76B004574E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					4F63F05C2CAFB76B004574E9 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					4F96205E2CB0630B004E9687 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 4F63F05C2CAFB76B004574E9;
+					};
+				};
+			};
+			buildConfigurationList = 4F63F0582CAFB76B004574E9 /* Build configuration list for PBXProject "HomePad" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F63F0542CAFB76B004574E9;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4F63F0782CAFBA4E004574E9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				4F96204E2CAFE9DC004E9687 /* XCRemoteSwiftPackageReference "VLCUI" */,
+				4FB5CFB62CB1079200861907 /* XCRemoteSwiftPackageReference "mqtt-nio" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4F63F05E2CAFB76B004574E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F63F05C2CAFB76B004574E9 /* HomePad */,
+				4F96205E2CB0630B004E9687 /* HomePadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F63F05B2CAFB76B004574E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F60AD6E2CB1224600ABCAB7 /* MobileVLCKit.xcframework in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F96205D2CB0630B004E9687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F60AD6D2CB1200E00ABCAB7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/homebrew/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F63F0592CAFB76B004574E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F96205B2CB0630B004E9687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F9620642CB0630B004E9687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F63F05C2CAFB76B004574E9 /* HomePad */;
+			targetProxy = 4F9620632CB0630B004E9687 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F63F0692CAFB76C004574E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F63F06A2CAFB76C004574E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F63F06C2CAFB76C004574E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HomePad/Preview Content\"";
+				DEVELOPMENT_TEAM = ABCDEF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomePad/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.zero.HomePad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F63F06D2CAFB76C004574E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HomePad/Preview Content\"";
+				DEVELOPMENT_TEAM = ABCDEF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomePad/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.zero.HomePad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F9620662CB0630B004E9687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABCDEF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.zero.HomePadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomePad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HomePad";
+			};
+			name = Debug;
+		};
+		4F9620672CB0630B004E9687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABCDEF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.zero.HomePadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomePad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HomePad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F63F0582CAFB76B004574E9 /* Build configuration list for PBXProject "HomePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F63F0692CAFB76C004574E9 /* Debug */,
+				4F63F06A2CAFB76C004574E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F63F06B2CAFB76C004574E9 /* Build configuration list for PBXNativeTarget "HomePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F63F06C2CAFB76C004574E9 /* Debug */,
+				4F63F06D2CAFB76C004574E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F9620652CB0630B004E9687 /* Build configuration list for PBXNativeTarget "HomePadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9620662CB0630B004E9687 /* Debug */,
+				4F9620672CB0630B004E9687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4F63F0782CAFBA4E004574E9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		4F96204E2CAFE9DC004E9687 /* XCRemoteSwiftPackageReference "VLCUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LePips/VLCUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.1;
+			};
+		};
+		4FB5CFB62CB1079200861907 /* XCRemoteSwiftPackageReference "mqtt-nio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sroebert/mqtt-nio.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4F63F0792CAFBA4E004574E9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F63F0782CAFBA4E004574E9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		4F96204F2CAFE9DC004E9687 /* VLCUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F96204E2CAFE9DC004E9687 /* XCRemoteSwiftPackageReference "VLCUI" */;
+			productName = VLCUI;
+		};
+		4FB5CFB72CB1079200861907 /* MQTTNIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FB5CFB62CB1079200861907 /* XCRemoteSwiftPackageReference "mqtt-nio" */;
+			productName = MQTTNIO;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4F63F0552CAFB76B004574E9 /* Project object */;
+}
