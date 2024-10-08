@@ -15,4 +15,4 @@ My quick and dirty reimplementation of [MagicMirror](https://magicmirror.builder
   - [Calbox](https://github.com/itszero/calbox) (A small calendar server written by me)
   - Google Maps (for commute time)
   - TeslaMate (for battery level, odometer, door unlocked and update available)
-  - RTSP for live camera feed (tested with hook up UniFi Protect feed)
+  - RTSP for live camera feed (tested with UniFi Protect feed, powered by VLCKit)
