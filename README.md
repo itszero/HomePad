@@ -3,7 +3,7 @@ HomePad
 
 My quick and dirty reimplementation of [MagicMirror](https://magicmirror.builders/). This will most likely be a code drop with no updates, but feel free to fork and extend!
 
-![Screenshot of HomePad running on iPad Simulator](./screenshot.png)
+![Screenshot of HomePad running on iPad Simulator](./screenshot.jpg)
 
 ## Features
 
